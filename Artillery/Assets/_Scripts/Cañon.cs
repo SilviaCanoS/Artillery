@@ -31,7 +31,7 @@ public class Cañon : MonoBehaviour
             GameObject temp = Instantiate(balaPrefab, puntaCañon.transform.position, transform.rotation);
             Rigidbody tempRB = temp.GetComponent<Rigidbody>();
             Vector3 direccionDisparo = transform.rotation.eulerAngles; //eulerAngles = matriz de rotacion
-            //direccionDisparo.y = 90 - direccionDisparo.x; //si y de puntaCañon tiene 90° de rotacion
+            direccionDisparo.y = 90 - direccionDisparo.x; //si y de puntaCañon tiene 90° de rotacion
             tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.singletonAdminJuego.VelocidadBala;
         }
     }
