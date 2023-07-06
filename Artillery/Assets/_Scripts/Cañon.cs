@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Cañon : MonoBehaviour
 {
+    public static bool bloqueado;
+
     [SerializeField] private GameObject balaPrefab;
     private GameObject puntaCañon;
     private float rotacion;
@@ -25,14 +27,18 @@ public class Cañon : MonoBehaviour
         if (rotacion > 90) rotacion = 90;
         if (rotacion < 0) rotacion = 0;
 
-        if (Input.GetKeyDown(KeyCode.Space) && cont <= AdministradorJuego.singletonAdminJuego.DisparosPorJuego)
+        if (Input.GetKeyDown(KeyCode.Space) 
+            && cont <= AdministradorJuego.singletonAdminJuego.DisparosPorJuego
+            && !bloqueado)
         {
             cont++;
             GameObject temp = Instantiate(balaPrefab, puntaCañon.transform.position, transform.rotation);
             Rigidbody tempRB = temp.GetComponent<Rigidbody>();
+            SeguirCamara.objetivo = temp;
             Vector3 direccionDisparo = transform.rotation.eulerAngles; //eulerAngles = matriz de rotacion
             direccionDisparo.y = 90 - direccionDisparo.x; //si y de puntaCañon tiene 90° de rotacion
             tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.singletonAdminJuego.VelocidadBala;
+            bloqueado = true;
         }
     }
 }
