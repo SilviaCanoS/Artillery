@@ -6,8 +6,12 @@ using UnityEngine;
 public class Cañon : MonoBehaviour
 {
     public static bool bloqueado;
+    //public AudioClip clipDisparo;
+    private GameObject sonidoDisparo;
+    private AudioSource sourceDisparo;
 
     [SerializeField] private GameObject balaPrefab;
+    public GameObject particulasDisparo;
     private GameObject puntaCañon;
     private float rotacion;
     private int cont = 1;
@@ -15,6 +19,8 @@ public class Cañon : MonoBehaviour
     private void Start()
     {
         puntaCañon = transform.Find("PuntaCañon").gameObject;
+        sonidoDisparo = GameObject.Find("DisparoSonido");
+        sourceDisparo = sonidoDisparo.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -37,7 +43,12 @@ public class Cañon : MonoBehaviour
             SeguirCamara.objetivo = temp;
             Vector3 direccionDisparo = transform.rotation.eulerAngles; //eulerAngles = matriz de rotacion
             direccionDisparo.y = 90 - direccionDisparo.x; //si y de puntaCañon tiene 90° de rotacion
+            Vector3 direccionParticulas = new Vector3(-90 + direccionDisparo.x, 90, 0);
+            GameObject particulas = Instantiate(particulasDisparo, puntaCañon.transform.position, 
+                                                Quaternion.Euler(direccionParticulas), transform);
             tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.singletonAdminJuego.VelocidadBala;
+            sourceDisparo.Play();
+            //sourceDisparo.PlayOneShot(clipDisparo); //para que no se cicle
             bloqueado = true;
         }
     }
