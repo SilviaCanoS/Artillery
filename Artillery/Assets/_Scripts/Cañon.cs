@@ -44,7 +44,9 @@ public class Cañon : MonoBehaviour
             Vector3 direccionDisparo = transform.rotation.eulerAngles; //eulerAngles = matriz de rotacion
             direccionDisparo.y = 90 - direccionDisparo.x; //si y de puntaCañon tiene 90° de rotacion
             Vector3 direccionParticulas = new Vector3(-90 + direccionDisparo.x, 90, 0);
-            GameObject particulas = Instantiate(particulasDisparo, puntaCañon.transform.position, 
+            Vector3 cambiarAltura = new Vector3(puntaCañon.transform.position.x,
+                                    puntaCañon.transform.position.y + 2, puntaCañon.transform.position.z);
+            GameObject particulas = Instantiate(particulasDisparo, cambiarAltura,
                                                 Quaternion.Euler(direccionParticulas), transform);
             tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.singletonAdminJuego.VelocidadBala;
             sourceDisparo.Play();
