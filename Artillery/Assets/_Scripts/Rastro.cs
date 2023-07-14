@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class Rastro : MonoBehaviour
@@ -7,9 +8,11 @@ public class Rastro : MonoBehaviour
     [Header("Configurar en editor")]
     public float distanciaMinimaEntrePuntos = 0.1f;
 
-    private LineRenderer linea;
+    private LineRenderer linea, mesh;
     private GameObject _objetivoLinea;
     private List<Vector3> puntos;
+    public Ajustes ajustes;
+    public Material hongo, caparazon, corona, pinguino;
 
     public GameObject ObjetivoLinea
     {
@@ -50,6 +53,18 @@ public class Rastro : MonoBehaviour
         linea = GetComponent<LineRenderer>();
         linea.enabled = false;
         puntos = new List<Vector3>();
+    }
+
+    private void Start()
+    {
+        mesh = this.GetComponent<LineRenderer>();
+        switch (ajustes.bala)
+        {
+            case Ajustes.EscogerBala.Hongo: mesh.material = hongo; break;
+            case Ajustes.EscogerBala.Caparazon: mesh.material = caparazon; break;
+            case Ajustes.EscogerBala.Corona: mesh.material = corona; break;
+            case Ajustes.EscogerBala.Pinguino: mesh.material = pinguino; break;
+        }
     }
 
     private void FixedUpdate()

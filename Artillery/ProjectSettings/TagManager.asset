@@ -6,8 +6,9 @@ TagManager:
   tags:
   - Suelo
   - Bala
-  - Obtaculo
   - Objetivo
+  - Obstaculo
+  - Explosion
   layers:
   - Default
   - TransparentFX

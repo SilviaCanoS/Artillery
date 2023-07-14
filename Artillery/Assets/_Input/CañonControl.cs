@@ -167,7 +167,7 @@ public partial class @CañonControl: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""18f86738-a1db-4c08-b926-eef83323c5b9"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",
@@ -178,7 +178,7 @@ public partial class @CañonControl: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""d93839d1-b4d5-4d42-80f6-41206eb9fd8b"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",
@@ -200,7 +200,7 @@ public partial class @CañonControl: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""529e9080-3c15-49af-b254-77853d1a6b52"",
-                    ""path"": ""<Gamepad>/leftStick/up"",
+                    ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",
@@ -211,7 +211,7 @@ public partial class @CañonControl: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""99da49b9-bab9-4fdb-bc02-3be08bc95b7c"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",
