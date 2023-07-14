@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class SeguirCamara : MonoBehaviour
 {
@@ -9,6 +12,9 @@ public class SeguirCamara : MonoBehaviour
     [Header("Configurar en editor")]
     public float suavizado = 0.05f;
     public Vector2 limiteXY = Vector2.zero;
+    public UnityEvent perder;
+    public GameObject canvasJuego;
+    public Cañon cañon;
 
     [Header("Configuracion dinamica")]
     public float camZ;
@@ -21,7 +27,12 @@ public class SeguirCamara : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 destino;
-        if (objetivo == null) destino = Vector3.zero;
+        if (objetivo == null)
+        {
+            canvasJuego.SetActive(true);
+            destino = Vector3.zero;
+            if (cañon.cont == AdministradorJuego.singletonAdminJuego.DisparosPorJuego) perder.Invoke();
+        }
         else
         {
             destino = objetivo.transform.position;

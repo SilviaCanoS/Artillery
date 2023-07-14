@@ -12214,6 +12214,7 @@ GameObject:
   - component: {fileID: 2581023631059833026}
   - component: {fileID: 6437147329114384579}
   - component: {fileID: 4670889701459177079}
+  - component: {fileID: -7405151535156648672}
   m_Layer: 0
   m_Name: BalaShaderGraph
   m_TagString: Bala
@@ -12437,7 +12438,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3acb01181209054c955230a6e126074, type: 2}
+  - {fileID: 2100000, guid: de109a5edff15c246b8c4b2944a3d4e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12486,8 +12487,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 8
+  m_Constraints: 104
   m_CollisionDetection: 1
+--- !u!114 &-7405151535156648672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459484834066647299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e12ea38a8d0ba408424d806d44c47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particulasExplosion: {fileID: 1701451368298184489, guid: 4149acfa6c4302a409eac68145fdbf9d,
+    type: 3}
 --- !u!1 &7562204653433874141
 GameObject:
   m_ObjectHideFlags: 0
