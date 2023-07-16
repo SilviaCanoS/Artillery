@@ -24,6 +24,11 @@ public class FuerzaScrollBar : MonoBehaviour
         modificarFuerzaDisparo.Enable();
     }
 
+    private void OnDisable()
+    {
+        modificarFuerzaDisparo.Disable();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,8 +46,17 @@ public class FuerzaScrollBar : MonoBehaviour
 
         fuerzaBala.value = movimiento;
 
-        if (fuerzaBala.value == 0) velocidad = 1;
-        else velocidad = fuerzaBala.value * 100;
+        if (fuerzaBala.value == 0) velocidad = 20;
+        else if (fuerzaBala.value > 0 && fuerzaBala.value <= 0.1f) velocidad = 21;
+        else if (fuerzaBala.value > 0.1f && fuerzaBala.value <= 0.2f) velocidad = 22;
+        else if (fuerzaBala.value > 0.2f && fuerzaBala.value <= 0.3f) velocidad = 23;
+        else if (fuerzaBala.value > 0.3f && fuerzaBala.value <= 0.4f) velocidad = 24;
+        else if (fuerzaBala.value > 0.4f && fuerzaBala.value <= 0.5f) velocidad = 25;
+        else if (fuerzaBala.value > 0.5f && fuerzaBala.value <= 0.6f) velocidad = 26;
+        else if (fuerzaBala.value > 0.7f && fuerzaBala.value <= 0.7f) velocidad = 27;
+        else if (fuerzaBala.value > 0.8f && fuerzaBala.value <= 0.8f) velocidad = 28;
+        else if (fuerzaBala.value > 0.9f && fuerzaBala.value <= 0.9f) velocidad = 29;
+        else if (fuerzaBala.value > 0.9f)velocidad = 30;
 
         //timer += Time.deltaTime;
         //if (timer >= timerEfecto)
