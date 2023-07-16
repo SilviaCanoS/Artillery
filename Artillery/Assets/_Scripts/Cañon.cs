@@ -42,7 +42,12 @@ public class Cañon : MonoBehaviour
         //disparar.canceled //cuano termina
     }
 
-
+    private void OnDisable()
+    {
+        disparar.performed -= this.Disparar;
+        apuntar.Disable();
+        disparar.Disable();
+    }
     private void Start()
     {
         switch(ajustes.bala)
