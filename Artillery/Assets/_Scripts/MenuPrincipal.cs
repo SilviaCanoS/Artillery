@@ -9,15 +9,16 @@ public class MenuPrincipal : MonoBehaviour
 {
     public Ajustes ajustes;
     public GameObject canvasAjustes, canvasPrincipal;
-    public RegistroScore registroScore;
+    public RegistroScore registroScore1, registroScore2, registroScore3;
     public Transform bestTransform;
     public TMP_Text bestText;
 
     private void Start()
     {
+
         bestTransform = GameObject.Find("MejorText").transform;
         bestText = bestTransform.GetComponent<TMP_Text>();
-        bestText.text = $"Best: {registroScore.mejor}";
+        bestText.text = $"Best: {registroScore1.mejor + registroScore2.mejor + registroScore3.mejor}";
 
         if (ajustes.ajustes)
         {
@@ -34,8 +35,8 @@ public class MenuPrincipal : MonoBehaviour
 
     public void ResetJuego()
     {
-        registroScore.mejor = 0;
-        bestText.text = $"Best: {registroScore.mejor}";
+        registroScore1.mejor = registroScore2.mejor = registroScore3.mejor = 0;
+        bestText.text = $"Best: 0";
     }
 
     public void SalirJuego()
