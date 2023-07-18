@@ -50,6 +50,8 @@ public class AdministradorJuego : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
+
         disparosPorJuego = disparos.disparos;
 
         bestTransform = GameObject.Find("BestText").transform;
