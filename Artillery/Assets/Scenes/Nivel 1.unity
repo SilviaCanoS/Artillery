@@ -4763,6 +4763,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia
       objectReference: {fileID: 0}
+    - target: {fileID: 6336470433934356556, guid: f3ef3d2f51cd9e44b87eec0b6197c57e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8138990449339895983, guid: f3ef3d2f51cd9e44b87eec0b6197c57e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3ef3d2f51cd9e44b87eec0b6197c57e, type: 3}
 --- !u!4 &344906445 stripped
@@ -14393,7 +14403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e2096106ca90e49972d9f23dc75501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balas: []
   hongo: {fileID: 7594812508056032531, guid: 8637506cea7929b4185d36541bd29317, type: 3}
   caparazon: {fileID: 3032422342416732956, guid: 5f495aba8c60c9b448a6b34b6cf59c89,
     type: 3}
