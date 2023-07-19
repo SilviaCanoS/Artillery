@@ -14,7 +14,8 @@ public class Bala : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo") || collision.gameObject.CompareTag("Obstaculo")) 
             Invoke("Explotar", 3);
 
-        if (collision.gameObject.CompareTag("Objetivo")) Explotar();
+        if (collision.gameObject.CompareTag("Objetivo")) 
+            Explotar();
     }
 
     private void FixedUpdate()

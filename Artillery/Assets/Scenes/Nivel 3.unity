@@ -147,6 +147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -491,6 +496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &45438595 stripped
@@ -601,6 +611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -1256,6 +1271,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -1799,6 +1819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -2169,6 +2194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -2480,6 +2510,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -2576,6 +2611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -2734,6 +2774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &169388987 stripped
@@ -2838,6 +2883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -3053,6 +3103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -3456,6 +3511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -3554,6 +3614,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -3938,6 +4003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -4244,6 +4314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -4342,6 +4417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -4978,6 +5058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -5077,6 +5162,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -5173,6 +5263,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -5271,6 +5366,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -5367,6 +5467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -5471,6 +5576,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -5567,6 +5677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -5951,6 +6066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -6132,6 +6252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -6574,6 +6699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -7539,6 +7669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &492727938 stripped
@@ -7911,6 +8046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -8007,6 +8147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -8250,6 +8395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &534326718 stripped
@@ -8431,6 +8581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueDuro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
@@ -8879,6 +9034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -9126,6 +9286,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &607278200 stripped
@@ -9239,6 +9404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -9403,6 +9573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -10367,6 +10542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -11187,6 +11367,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &833180149 stripped
@@ -11690,6 +11875,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -11792,6 +11982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -12320,6 +12515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -12410,6 +12610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -12503,6 +12708,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -12777,6 +12987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -13049,6 +13264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -13617,6 +13837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -13799,6 +14024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -13895,6 +14125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -14083,6 +14318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -14351,6 +14591,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -14447,6 +14692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -15276,6 +15526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -15448,6 +15703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -15711,6 +15971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueDuro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
@@ -15977,6 +16242,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -16237,6 +16507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -17298,6 +17573,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -18129,6 +18409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &1486465470 stripped
@@ -18160,6 +18445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -19641,6 +19931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -19731,6 +20026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
@@ -20302,6 +20602,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &1686431273 stripped
@@ -20333,6 +20638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -20515,6 +20825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -20723,6 +21038,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -20881,6 +21201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueDuro
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
@@ -21095,6 +21420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -21854,6 +22184,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -22177,6 +22512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -22817,6 +23157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueSorpresa (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}
       propertyPath: ajustes
@@ -23365,6 +23710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -23546,6 +23896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -23992,6 +24347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraSorpresa (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
@@ -24946,6 +25306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BloqueDuro (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5730888498340861379, guid: f06a23b6707cfc345a8e32beac4b7492,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f06a23b6707cfc345a8e32beac4b7492, type: 3}
 --- !u!4 &2121281293 stripped
@@ -25317,6 +25682,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraSorpresa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7190069651039373804, guid: 6d954d8d6f987784e82a422fb22e3c57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     - target: {fileID: 7889901443056889740, guid: 6d954d8d6f987784e82a422fb22e3c57,
         type: 3}
       propertyPath: m_RootOrder
@@ -25486,6 +25856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BloqueSorpresa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 14969026133370793, guid: c454211bbba6f934ab290313772de73b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 3435537489914098113, guid: c454211bbba6f934ab290313772de73b,
         type: 3}

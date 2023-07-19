@@ -7,7 +7,7 @@ using UnityEngine.XR;
 
 public class Disparos : MonoBehaviour
 {
-    public List<GameObject> balas;
+    //public List<GameObject> balas;
     GameObject balaPrefab;
     public GameObject hongo, caparazon, corona, pinguino;
     public Ajustes ajustes;
@@ -92,6 +92,10 @@ public class Disparos : MonoBehaviour
         //var objetoAEliminar = balas[balas.Count - 1];
         //Destroy(objetoAEliminar);
         //balas.RemoveAt(balas.Count - 1);
-        if (balas == null) Destroy(this.gameObject);
+        if (disparos == 0) //(balas == null)
+        {
+            Destroy(this.gameObject);
+            Cañon.bloqueado = true;
+        }
     }
 }

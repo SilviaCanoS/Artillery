@@ -51,6 +51,7 @@ public class AdministradorJuego : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1;
+        Cañon.bloqueado = false;
 
         disparosPorJuego = disparos.disparos;
 
@@ -123,6 +124,7 @@ public class AdministradorJuego : MonoBehaviour
 
     public void IrMenuPrincipal()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 }

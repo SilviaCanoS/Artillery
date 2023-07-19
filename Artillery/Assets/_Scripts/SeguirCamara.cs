@@ -31,7 +31,11 @@ public class SeguirCamara : MonoBehaviour
         {
             canvasJuego.SetActive(true);
             destino = Vector3.zero;
-            if (cañon.cont == AdministradorJuego.singletonAdminJuego.DisparosPorJuego) perder.Invoke();
+            if (cañon.cont == AdministradorJuego.singletonAdminJuego.DisparosPorJuego)
+            {
+                Cañon.bloqueado = true;
+                perder.Invoke();
+            }
         }
         else
         {
